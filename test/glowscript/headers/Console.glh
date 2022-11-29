@@ -1,0 +1,4 @@
+function log($message)
+{
+    /tellraw @a [{"text":"Console >>","italic":true,"color":"gray"},{"text": $message}]
+}

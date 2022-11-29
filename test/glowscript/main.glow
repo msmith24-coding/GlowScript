@@ -1,0 +1,8 @@
+namespace("development");
+extends("mcfunction");
+
+include << "headers/Console.glh"
+
+log("Hello, World!");
+
+
