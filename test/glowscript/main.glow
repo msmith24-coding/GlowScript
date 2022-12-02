@@ -1,8 +1,5 @@
-namespace("development");
-extends("mcfunction");
+FUN _main():
+    print("Hello, World!");
 
-include << "headers/Console.glh"
-
-log("Hello, World!");
-
-
+    RETURN 0;
+END;
